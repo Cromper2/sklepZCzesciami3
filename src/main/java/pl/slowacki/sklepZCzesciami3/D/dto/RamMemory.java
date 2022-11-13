@@ -2,17 +2,17 @@ package pl.slowacki.sklepZCzesciami3.D.dto;
 
 import java.util.Objects;
 
-public class HardDrive {
+public class RamMemory {
 
-    public String name;
-    public String producer;
+    private String name;
+    private String producer;
 
-    public HardDrive(String name, String producer) {
+    public RamMemory(String name, String producer) {
         this.name = name;
         this.producer = producer;
     }
 
-    public HardDrive() {
+    public RamMemory() {
     }
 
     public String getName() {
